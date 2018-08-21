@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="flutter_test_app_android">
+    <output-path>$PROJECT_DIR$/out/artifacts/flutter_test_app_android</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="key0" />
+        <option name="keyPassword" value="YTkzNzk5OTJh" />
+        <option name="keyStorePassword" value="YTkzNzk5OTJh" />
+        <option name="keyStoreUrl" value="file://D:/Android/Key.jks" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="signingMode" value="DEBUG" />
+      </options>
+    </properties>
+    <root id="archive" name="flutter_test_app_android.apk">
+      <element id="android-final-package" facet="flutter_test_app_android/android/Android" />
+    </root>
+  </artifact>
+</component>
